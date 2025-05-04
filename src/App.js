@@ -26,7 +26,7 @@ function App() {
           <div className="nav-right">
             <input type="text" placeholder="Search By Product " className="search-box"></input>
             <a href="#LOGIN">LOGIN</a>
-           <a href="#"><img src={heart} alt="Wishlist" style={{ width: '16px', height: '16px', marginRight: '5px' }} /> Wishlist</a>
+            <a href="/wishlist"><img src={heart} alt="Wishlist" style={{ width: '16px', height: '16px', marginRight: '5px' }} /> Wishlist</a>
           </div>
         </nav>
       </header>
