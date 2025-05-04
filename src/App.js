@@ -31,15 +31,16 @@ function App() {
         </nav>
       </header>
       <section id="sale" className="category-section">
-        <img src='https://images.bewakoof.com/uploads/grid/app/1x1-RM-1--1--1746247520.jpg'/>
-        <img src='https://images.bewakoof.com/uploads/grid/app/Trending-now-Bestseller-IK-RM-1x1-Common-HC-BANNER--1--1746188248.gif'/>
-        <img src='https://images.bewakoof.com/uploads/grid/app/Buy-3-CFT-Common-1x1-HC-Banner-1746027697.jpg'/>
+        <img src='https://images.bewakoof.com/uploads/grid/app/1x1-RM-1--1--1746247520.jpg' alt="Sale Banner 1" />
+        <img src='https://images.bewakoof.com/uploads/grid/app/Trending-now-Bestseller-IK-RM-1x1-Common-HC-BANNER--1--1746188248.gif' alt="Sale Banner 2" />
+        <img src='https://images.bewakoof.com/uploads/grid/app/Buy-3-CFT-Common-1x1-HC-Banner-1746027697.jpg' alt="Sale Banner 3" />
       </section>
       {/* Hero Section */}
       <section className="hero">
         <img
           className="hero-banner"
           src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/1135d052-0e8d-4cb7-a48e-102e638805aa.__CR0,0,970,600_PT0_SX970_V1___.jpg"
+          alt="Hero Banner"
         />
       </section>
       {/* New Arrivals Section */}
@@ -199,9 +200,9 @@ function App() {
       {/* Shop by Fandom */}
       <h2>Shop by Fandom</h2>
       <section id="sale" className="category-section">
-        <img src='https://images.bewakoof.com/uploads/grid/app/SC-marvel-men-1738586657.jpg'/>
-        <img src='https://images.bewakoof.com/uploads/grid/app/SC-squid-games-men-1738586857.jpg'/>
-        <img src='https://images.bewakoof.com/uploads/grid/app/SC-disney-women--1--1738592408.jpg'/>
+        <img src='https://images.bewakoof.com/uploads/grid/app/SC-marvel-men-1738586657.jpg' alt="Marvel Fandom" />
+        <img src='https://images.bewakoof.com/uploads/grid/app/SC-squid-games-men-1738586857.jpg' alt="Squid Games Fandom" />
+        <img src='https://images.bewakoof.com/uploads/grid/app/SC-disney-women--1--1738592408.jpg' alt="Disney Women Fandom" />
       </section>
 
       {/* Footer */}
@@ -245,13 +246,13 @@ function App() {
             <h4>Keep Up To Date</h4>
           </div>
           <div className="footer-section">
-            <h4>Download The App</h4>
-            <img src="https://www.bewakoof.com/_next/image?url=https%3A%2F%2Fimages.bewakoof.com%2Fweb%2Fapp_android_v1.png&w=256&q=75"/>
-            <img src='https://www.bewakoof.com/_next/image?url=https%3A%2F%2Fimages.bewakoof.com%2Fweb%2Fapp_ios_v1.png&w=256&q=75'/>
-          </div>
-          <div className="footer-section">
-            <h4>100% Secure Payment</h4>
-          </div>
+          <h4>Download The App</h4>
+          <img src="https://www.bewakoof.com/_next/image?url=https%3A%2F%2Fimages.bewakoof.com%2Fweb%2Fapp_android_v1.png&w=256&q=75" alt="Download Android App" />
+          <img src='https://www.bewakoof.com/_next/image?url=https%3A%2F%2Fimages.bewakoof.com%2Fweb%2Fapp_ios_v1.png&w=256&q=75' alt="Download iOS App" />
+        </div>
+        <div className="footer-section">
+          <h4>100% Secure Payment</h4>
+        </div>
         </div>
         <p className="footer-copy">&copy; 2024 Bewkoof. All rights reserved.</p>
       </footer>
