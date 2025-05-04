@@ -40,37 +40,22 @@ body {
   font-size: 30px;
 }
 
-.nav-right {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
 .logo-image {
   height: 30px;
   width: auto;
 }
 
-.navbar{
+.nav {
   display: flex;
   justify-content: space-between;
-  padding: 10px 30px;
-  background-color: #fff;
-  border-bottom: 1px solid #ccc;
   align-items: center;
 }
 
-.nav-left {
+.nav-left, .nav-right {
   display: flex;
-  align-items: center;
-  gap:20px;
+  align-items:right;
 }
 
-.search-box{
-  padding: 6px 10 px;
-  border: 1px solid #ccc;
-  border-radius:4px ;
-}
 .nav-left a, .nav-right a {
   color: #1a1a1a;
   margin: 0 20px;
@@ -79,14 +64,6 @@ body {
   font-size: 16px;
   transition: color 0.3s ease;
 }
-
-/* Added styles to shift search box and login to right side */
-.nav {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
 .hero {
   background-color: #f7f7f7;
   color: #1a1a1a;
@@ -191,6 +168,7 @@ body {
   top: 8px;
   left: 8px;
   background-color: #808080; 
+  color: white;
   font-weight: 700;
   font-size: 12px;
   padding: 2px 6px;
@@ -307,6 +285,7 @@ body {
   text-align: center;
 }
 
+
 #mobile-covers .product-list {
   flex-direction: row;
   flex-wrap: nowrap;
@@ -320,6 +299,7 @@ body {
   justify-content: flex-start;
 }
 
+
 .new-arrivals-list {
   display: flex;
   flex-wrap: nowrap;
@@ -328,13 +308,13 @@ body {
   padding-bottom: 10px;
   align-items: center;
 }
-#sale{
+
+
+#sale {
   display: flex;
   flex-wrap: nowrap;
-  overflow-x: hidden; 
+  overflow-x: auto;
+  gap: 20px;
   padding-bottom: 10px;
-  justify-content: center; 
 }
-html,body{
-  overflow-x:hidden ;
-}
+

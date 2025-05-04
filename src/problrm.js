@@ -6,12 +6,9 @@ import heroimage2 from'./hero2.png';
 import women from './women.png';
 import women2 from './women2.png';
 import latestcoll from './latestcoll.png';
-import heart from './heart.png';
-
 function App() {
   return (
     <div className="App">
-      {/* Header */}
       <header className="header">
         <div className="logo">
           <img src="https://images.bewakoof.com/web/BewakoofBirthday-264x36-Desktop-2.svg" alt="Bewkoof Logo" className="logo-image" />
@@ -21,12 +18,10 @@ function App() {
             <a href="#Men">MEN</a>
             <a href="#women">WOMEN</a>
             <a href="#mobile-covers">MOBILE COVERS</a>
-
           </div>
           <div className="nav-right">
             <input type="text" placeholder="Search By Product " className="search-box"></input>
             <a href="#LOGIN">LOGIN</a>
-           <a href="#"><img src={heart} alt="Wishlist" style={{ width: '16px', height: '16px', marginRight: '5px' }} /> Wishlist</a>
           </div>
         </nav>
       </header>
@@ -35,14 +30,12 @@ function App() {
         <img src='https://images.bewakoof.com/uploads/grid/app/Trending-now-Bestseller-IK-RM-1x1-Common-HC-BANNER--1--1746188248.gif'/>
         <img src='https://images.bewakoof.com/uploads/grid/app/Buy-3-CFT-Common-1x1-HC-Banner-1746027697.jpg'/>
       </section>
-      {/* Hero Section */}
       <section className="hero">
         <img
           className="hero-banner"
           src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/1135d052-0e8d-4cb7-a48e-102e638805aa.__CR0,0,970,600_PT0_SX970_V1___.jpg"
         />
       </section>
-      {/* New Arrivals Section */}
       <section id="new-arrivals" className="category-section">
         <h2>New Arrivals</h2>
         <div className="product-list new-arrivals-list">
@@ -109,7 +102,7 @@ function App() {
         </div>
       </section>
 
-      {/* Men Category Section */}
+
       <h2> SHOP BY CATEGORY-MEN </h2>
       <section id="men" className="category-section">
         <img src={heroImage} alt="Men Category Hero" className="hero-banner" />
@@ -189,14 +182,10 @@ function App() {
           </div>
         </div>
       </section>
-
-      {/* Latest Collections */}
         <h2>Latest Collections</h2>
         <section id="Latest Collections" className="category-section">
       <img src={latestcoll} alt="Latest Collections" className="women-banner" />
       </section>
-
-      {/* Shop by Fandom */}
       <h2>Shop by Fandom</h2>
       <section id="sale" className="category-section">
         <img src='https://images.bewakoof.com/uploads/grid/app/SC-marvel-men-1738586657.jpg'/>
